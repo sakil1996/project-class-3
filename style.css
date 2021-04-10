@@ -61,3 +61,105 @@ color: #cccc;
 
 
 }
+
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background: url(images/showcas.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: black;
+
+}
+#showcase h1{
+    font-size: 50px;
+    margin-top:100px ;
+    margin-bottom: 10px;
+}
+#showcase p{
+  font-size: 20px;
+
+}
+#newshocase{
+    padding: 20px;
+    background: skyblue;
+    color: black;
+
+}
+#newshocase h1{
+    float: left;
+
+}
+#newshocase form{
+    float: right;
+    margin-top: 15px;
+}
+#newshocase input[type="email"]{
+
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button{
+    height: 38px;
+    padding: 10px;
+    background: tomato;
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 150px;
+    color: white;
+    border: 0;
+    
+}
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width:30%;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+#boxes .box img{
+    width: 100%;
+}
+@media(max-width:760px){
+
+header #branding,
+header nav,
+header nav li
+#newshocase h1,
+#newshocase form{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+header{
+    padding-bottom: 20px;
+}
+#showcase h1{
+    margin-top: 40px;
+
+}
+#newshocase button{
+    display: block;
+    width: 100%;
+
+}
+#newshocase form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+}
+
+}
+  
